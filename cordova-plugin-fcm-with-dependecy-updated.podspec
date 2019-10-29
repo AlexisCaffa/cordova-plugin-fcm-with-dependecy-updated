@@ -120,6 +120,16 @@ DESC
   #
 
   spec.frameworks  = "AddressBook", "Security", "UIKit"
+  spec.vendored_frameworks = [
+    "src/ios/firebase/FirebaseAnalytics.framework",
+    "src/ios/firebase/FirebaseCore.framework",
+    "src/ios/firebase/FirebaseInstanceID.framework",
+    "src/ios/firebase/FirebaseMessaging.framework",
+    "src/ios/firebase/GoogleInterchangeUtilities.framework",
+    "src/ios/firebase/GoogleIPhoneUtilities.framework",
+    "src/ios/firebase/GoogleSymbolUtilities.framework",
+    "src/ios/firebase/GoogleUtilities.framework"
+  ]
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
